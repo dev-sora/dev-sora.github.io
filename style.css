@@ -1,0 +1,222 @@
+/* ===== Google Fonts (Optional) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* ===== CSS Variables ===== */
+:root {
+    --bg-color: #f4f7f9;
+    --sidebar-bg: #ffffff;
+    --card-bg: #ffffff;
+    --primary-text: #2c3e50;
+    --secondary-text: #7f8c8d;
+    --accent-color: #3498db;
+    --border-color: #ecf0f1;
+    --shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* ===== Basic Reset & Typography ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    display: flex;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+    color: var(--primary-text);
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 0.75rem;
+    color: var(--accent-color);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    width: 320px;
+    background-color: var(--sidebar-bg);
+    padding: 2.5rem;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 4px 0 10px rgba(0,0,0,0.03);
+    border-right: 1px solid var(--border-color);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 5px solid var(--border-color);
+}
+
+.name {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.title, .affiliation {
+    color: var(--secondary-text);
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    margin: 0 0.75rem;
+    color: var(--secondary-text);
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
+}
+
+/* ===== Main Content ===== */
+.content {
+    margin-left: 320px;
+    padding: 3rem;
+    width: calc(100% - 320px);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+/* Timeline for Experience */
+.timeline-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.timeline-date {
+    min-width: 140px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+.timeline-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+.timeline-content p {
+    color: var(--secondary-text);
+}
+
+/* Publication & Award Lists */
+.publication-list, .award-list {
+    list-style: none;
+}
+.publication-list li {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.publication-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+.publication-list strong {
+    font-size: 1.1rem;
+}
+.publication-list em {
+    color: var(--secondary-text);
+    display: block;
+    margin-top: 0.25rem;
+    font-style: normal;
+}
+.paper-link {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+.award-list li {
+    padding: 0.5rem 0;
+    display: flex;
+}
+.award-date {
+    min-width: 100px;
+    font-weight: bold;
+}
+
+/* Skill Tags */
+.skill-tags span {
+    display: inline-block;
+    background-color: var(--border-color);
+    color: var(--secondary-text);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 992px) {
+    body {
+        flex-direction: column;
+    }
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 2rem;
+    }
+}
+@media (max-width: 480px) {
+    .timeline-item {
+        flex-direction: column;
+    }
+    .timeline-date {
+        margin-bottom: 0.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .content {
+        padding: 1.5rem;
+    }
+}
