@@ -3,7 +3,7 @@ theme: null
 
 collections:
   publications:
-    output: true
+    output: false
     permalink: /publications/:name/
 
   software:

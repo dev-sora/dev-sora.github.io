@@ -11,6 +11,7 @@ authors:
 type: conference
 container: Advances in Neural Information Processing Systems (NeurIPS)
 year: 2025
+note: #optional
 
 pdf: /assets/pdf/raptr_neurips.pdf
 code: https://github.com/merlresearch/radar-pose-transformer
