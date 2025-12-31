@@ -1,0 +1,13 @@
+<header>
+  <h1>
+    <a href="/">{{ site.title }}</a>
+  </h1>
+
+  <nav>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+
+  <hr />
+</header>

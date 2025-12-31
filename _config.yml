@@ -1,0 +1,11 @@
+title: "Sorachi Kato"
+theme: null
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+  software:
+    output: true
+    permalink: /software/:name/

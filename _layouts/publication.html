@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article>
+  <h2>{{ page.title }}</h2>
+
+  <p>
+    <strong>Authors:</strong>
+    {{ page.authors | join: ", " }}
+  </p>
+
+  <p>
+    <strong>Venue:</strong>
+    {{ page.venue }} ({{ page.year }})
+  </p>
+
+  <p>
+    {% if page.pdf %}
+      <a href="{{ page.pdf }}">[PDF]</a>
+    {% endif %}
+    {% if page.code %}
+      <a href="{{ page.code }}">[Code]</a>
+    {% endif %}
+  </p>
+
+  <hr />
+
+  {{ content }}
+</article>
