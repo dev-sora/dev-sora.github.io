@@ -5,10 +5,10 @@ parmalink: /publications/
 ---
 
 {% assign my_names = "Sorachi Kato|加藤 空知" | split: "|" %}
-{% assign journal_pubs = site.publications | where: "type", "journal" | sort: "sortkey" | reverse %}
-{% assign conf_pubs = site.publications | where: "type", "conference" | sort: "sortkey" | reverse %}
-{% assign domes_pubs = site.publications | where: "type", "domestic" | sort: "sortkey" | reverse %}
-{% assign article_pubs = site.publications | where: "type", "article" | sort: "sortkey" | reverse %}
+{% assign journal_pubs = site.pubs | where: "type", "journal" | sort: "sortkey" | reverse %}
+{% assign conf_pubs = site.pubs | where: "type", "conference" | sort: "sortkey" | reverse %}
+{% assign domes_pubs = site.pubs | where: "type", "domestic" | sort: "sortkey" | reverse %}
+{% assign article_pubs = site.pubs | where: "type", "article" | sort: "sortkey" | reverse %}
 
 ## Journal
 

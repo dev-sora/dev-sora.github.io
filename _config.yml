@@ -5,10 +5,10 @@ url: "https://dev-sora.github.io"
 
 collections:
   publications:
-    output: true
+    output: false
 
   software:
-    output: true
+    output: false
 
   awards:
-    output: true
+    output: false
