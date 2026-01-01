@@ -49,6 +49,26 @@ My research explores wireless sensing and deep neural signal processing, with th
 
 <section class="content-section" markdown="1">
 ## Biography
+<div class="timeline">
+  <ul>
+    <li style="--index: 1">
+      <h3>2017-2021</h3>
+      <p>Bachelor (Engineering), <br> The University of Osaka</p>
+    </li>
+    <li style="--index: 2">
+      <h3>2021-2023</h3>
+      <p>Master (Information Science), <br> The University of Osaka</p>
+    </li>
+    <li style="--index: 3">
+      <h3>2023-now</h3>
+      <p>Ph.D. Candidate, <br> The University of Osaka</p>
+    </li>
+    <li style="--index: 4">
+      <h3>2023 July - 2024 June</h3>
+      <p>Visiting Student / Internship, <br> Mitsubishi Electric Research Laboratories</p>
+    </li>
+  </ul>
+  </div>
 </section>
 
 <section class="content-section" markdown="1">
