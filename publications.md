@@ -9,6 +9,9 @@ title: Publications
 {% assign domes_pubs = site.pubs | where: "type", "domestic" | sort: "sortkey" | reverse %}
 {% assign article_pubs = site.pubs | where: "type", "article" | sort: "sortkey" | reverse %}
 
+# Publications
+
+<section class="content-section" markdown="1">
 ## 📕Journal
 
 <ul>
@@ -32,7 +35,9 @@ title: Publications
   </li>
 {% endfor %}
 </ul>
+</section>
 
+<section class="content-section" markdown="1">
 ## 📑Conference
 
 <ul>
@@ -56,7 +61,9 @@ title: Publications
   </li>
 {% endfor %}
 </ul>
+</section>
 
+<section class="content-section" markdown="1">
 ## 🇯🇵Domestic Conference
 
 All papers below are presented in Japanese.
@@ -92,7 +99,9 @@ All papers below are presented in Japanese.
   </ul>
 
 </details>
+</section>
 
+<section class="content-section" markdown="1">
 ## ✍️Article
 
 <ul>
@@ -113,3 +122,4 @@ All papers below are presented in Japanese.
   </li>
 {% endfor %}
 </ul>
+</section>

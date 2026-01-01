@@ -3,8 +3,9 @@ layout: default
 title: Awards
 ---
 
-## 🎉Awards
+# 🎉Awards
 
+<section class="content-section" markdown="1">
 {% assign awds = site.awds | sort: "year" | reverse %}
 
 {% for awd in awds %}
@@ -13,3 +14,5 @@ title: Awards
   {% if awd.link %}<a href="{{ awd.link }}">[Link]</a>{% endif %}
 
 {% endfor %}
+
+</section>

@@ -42,12 +42,15 @@ title: Home
   </div>
 </div>
 
----
-
+<section class="content-section" markdown="1">
 ## Research Overview
+</section>
 
----
+<section class="content-section" markdown="1">
+## Biography
+</section>
 
+<section class="content-section" markdown="1">
 ## Recent Publications
 
 {% assign pubs = site.pubs | sort: "year" | reverse %}
@@ -57,3 +60,5 @@ title: Home
   {% endfor %}
 
 [View all publications →](/publications/)
+
+</section>
