@@ -59,6 +59,6 @@ title: Home
 - **[{{ pub.title }}]({{ pub.url }})**, {{ pub.container }}, {{ pub.year }}.
   {% endfor %}
 
-[View all publications →](/publications/)
+[View all publications →](/publications.html)
 
 </section>
