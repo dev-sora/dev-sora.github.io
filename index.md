@@ -44,6 +44,7 @@ title: Home
 
 <section class="content-section" markdown="1">
 ## Research Overview
+My research explores wireless sensing and deep neural signal processing, with the goal of transforming commodity radio signals into scalable, privacy-preserving perception systems. I study how Wi-Fi and mmWave radar measurements—originally designed for communication—can be repurposed to infer human states and environments by integrating classical signal processing with modern deep learning. A central focus of my work is improving the accessibility and usability of wireless sensing data, including learning-based modeling of standardized Wi-Fi beamforming reports and structured perception from mmWave radar signals. By embedding physical signal structure and measurement constraints into learning frameworks, my research aims to bridge communication and sensing, enabling robust perception under incomplete, compressed, and noisy radio observations.
 </section>
 
 <section class="content-section" markdown="1">
