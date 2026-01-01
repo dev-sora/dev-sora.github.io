@@ -1,6 +1,9 @@
 title: "Sorachi Kato"
 theme: null
 
+baseurl: "/dev-sora.github.io"
+url: "https://dev-sora.github.io"
+
 collections:
   publications:
     output: false
