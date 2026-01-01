@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Publications
+permalink: /publications/
 ---
 
 {% assign my_names = "Sorachi Kato|加藤 空知" | split: "|" %}
