@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Publications
-parmalink: /publications/
 ---
 
 {% assign my_names = "Sorachi Kato|加藤 空知" | split: "|" %}
@@ -63,7 +62,7 @@ parmalink: /publications/
 All papers below are presented in Japanese.
 
 <details>
-  <summary>Papers →</summary>
+  <summary>Show Papers</summary>
 
   <ul>
   {% for pub in domes_pubs %}

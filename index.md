@@ -50,7 +50,7 @@ title: Home
 
 ## Recent Publications
 
-{% assign pubs = site.publications | sort: "year" | reverse %}
+{% assign pubs = site.pubs | sort: "year" | reverse %}
 {% for pub in pubs limit:3 %}
 
 - **[{{ pub.title }}]({{ pub.url }})**, {{ pub.container }}, {{ pub.year }}.

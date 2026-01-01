@@ -4,7 +4,7 @@ theme: null
 url: "https://dev-sora.github.io"
 
 collections:
-  publications:
+  pubs:
     output: false
 
   software:
