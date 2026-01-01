@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Awards
-parmalink: /awards/
 ---
 
-## Awards
+## 🎉Awards
 
-{% assign awds = site.awards | sort: "year" | reverse %}
+{% assign awds = site.awds | sort: "year" | reverse %}
 
 {% for awd in awds %}
 

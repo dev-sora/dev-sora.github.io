@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Software / Datasets
-parmalink: /software/
 ---
 
-{% assign sws = site.software %}
+{% assign sws = site.soft %}
 
 <ul>
   {% for sw in sws %}

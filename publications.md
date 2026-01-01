@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Publications
-permalink: /publications/
 ---
 
 {% assign my_names = "Sorachi Kato|加藤 空知" | split: "|" %}
@@ -10,7 +9,7 @@ permalink: /publications/
 {% assign domes_pubs = site.pubs | where: "type", "domestic" | sort: "sortkey" | reverse %}
 {% assign article_pubs = site.pubs | where: "type", "article" | sort: "sortkey" | reverse %}
 
-## Journal
+## 📕Journal
 
 <ul>
 {% for pub in journal_pubs %}
@@ -34,7 +33,7 @@ permalink: /publications/
 {% endfor %}
 </ul>
 
-## Conference
+## 📑Conference
 
 <ul>
 {% for pub in conf_pubs %}
@@ -58,7 +57,7 @@ permalink: /publications/
 {% endfor %}
 </ul>
 
-## Domestic Conference
+## 🇯🇵Domestic Conference
 
 All papers below are presented in Japanese.
 
@@ -94,7 +93,7 @@ All papers below are presented in Japanese.
 
 </details>
 
-## Article
+## ✍️Article
 
 <ul>
 {% for pub in article_pubs %}

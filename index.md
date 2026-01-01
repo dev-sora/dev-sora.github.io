@@ -11,7 +11,7 @@ title: Home
   />
 
   <div class="profile-text">
-    <h1>Sorachi Kato</h1>
+    <h1>Sorachi Kato (加藤 空知)</h1>
 
     <p>
       Ph.D. Candidate, the University of Osaka, Japan<br />

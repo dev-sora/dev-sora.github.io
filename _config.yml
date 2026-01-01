@@ -7,8 +7,8 @@ collections:
   pubs:
     output: false
 
-  software:
+  soft:
     output: false
 
-  awards:
+  awds:
     output: false
