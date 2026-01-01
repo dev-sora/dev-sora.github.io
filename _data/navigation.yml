@@ -1,11 +1,14 @@
 - title: Home
   url: /
 
-- title: Software&Datasets
-  url: /software/
-
 - title: Publications
   url: /publications/
+
+- title: Software / Datasets
+  url: /software/
+
+- title: Awards
+  url: /awards/
 
 - title: csv
   url: /assets/pdf/cv.pdf

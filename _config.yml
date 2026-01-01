@@ -4,8 +4,9 @@ theme: null
 collections:
   publications:
     output: false
-    permalink: /publications/:name/
 
   software:
-    output: true
-    permalink: /software/:name/
+    output: false
+
+  awards:
+    output: false
