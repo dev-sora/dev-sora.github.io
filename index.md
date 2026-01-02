@@ -44,32 +44,33 @@ title: Home
 
 <section class="content-section" markdown="1">
 ## Research Overview
-My research explores wireless sensing and deep neural signal processing, with the goal of transforming commodity radio signals into scalable, privacy-preserving perception systems. I study how Wi-Fi and mmWave radar measurements—originally designed for communication—can be repurposed to infer human states and environments by integrating classical signal processing with modern deep learning. A central focus of my work is improving the accessibility and usability of wireless sensing data, including learning-based modeling of standardized Wi-Fi beamforming reports and structured perception from mmWave radar signals. By embedding physical signal structure and measurement constraints into learning frameworks, my research aims to bridge communication and sensing, enabling robust perception under incomplete, compressed, and noisy radio observations.
+
+My research primarily focuses on **wireless sensing**, which aims to predict
+motions and status of human subjects and environments.
+Wireless sensing has attracted significant attention as a promising alternative to conventional sensing modalities such as cameras and wearable sensors, due to its non-intrusive nature, reduced privacy concerns, and wide-area coverage.
+
+I mainly work on two types of approaches: communication-based sensing using wireless signals such as Wi-Fi and BLE, and radar-based sensing methods built on mmWave signal processing.
+With the ultimate goal of eliminating unobservable spaces in the physical world, I develop advanced wireless sensing methods, primarily leveraging deep learning techniques.
+
+Beyond wireless sensing, I am also interested in related topics including **multimedia transmission**, **signal compression**, and **3D reconstruction**.
+
 </section>
 
 <section class="content-section" markdown="1">
 ## Biography
-<div class="timeline">
-  <ul>
-    <li style="--index: 1">
-      <h3>2017-2021</h3>
-      <p>Bachelor (Engineering), <br> The University of Osaka</p>
-    </li>
-    <li style="--index: 2">
-      <h3>2021-2023</h3>
-      <p>Master (Information Science), <br> The University of Osaka</p>
-    </li>
-    <li style="--index: 3">
-      <h3>2023-now</h3>
-      <p>Ph.D. Candidate, <br> The University of Osaka</p>
-    </li>
-    <li style="--index: 4">
-      <h3>2023 July - 2024 June</h3>
-      <p>Visiting Student / Internship, <br> Mitsubishi Electric Research Laboratories</p>
-    </li>
-  </ul>
+<div id="timeline-container">
+  <div class="inner-container">
+    <ul class="timeline">
+      <li class="timeline-item" data-date="2017-2021">Bachelor Deg. (Engineer), the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2021-2023">Master Deg. (Information Science), the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2021.07-2021.08">NTT, Inc., Summer Internship, Japan</li>
+      <li class="timeline-item" data-date="2023-now">Ph.D. candidate, the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2023.07-2024.06">Mitsubishi Electric Research Laboratories, Visiting student / Internship, USA</li>
+    </ul>
   </div>
+</div>
 </section>
+<script src="{{ '/assets/js/biography-timeline.js' | relative_url }}"></script>
 
 <section class="content-section" markdown="1">
 ## Recent Publications
@@ -77,7 +78,7 @@ My research explores wireless sensing and deep neural signal processing, with th
 {% assign pubs = site.pubs | sort: "year" | reverse %}
 {% for pub in pubs limit:3 %}
 
-- **[{{ pub.title }}]({{ pub.url }})**, {{ pub.container }}, {{ pub.year }}.
+- **{{ pub.title }}**, {{ pub.container }}, {{ pub.year }}.
   {% endfor %}
 
 [View all publications →](/publications.html)

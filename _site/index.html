@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href=/assets/css/style.css />
+
+    <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
   </head>
 
   <body>
@@ -79,45 +82,46 @@
 
 <section class="content-section">
   <h2 id="research-overview">Research Overview</h2>
-  <p>My research explores wireless sensing and deep neural signal processing, with the goal of transforming commodity radio signals into scalable, privacy-preserving perception systems. I study how Wi-Fi and mmWave radar measurements—originally designed for communication—can be repurposed to infer human states and environments by integrating classical signal processing with modern deep learning. A central focus of my work is improving the accessibility and usability of wireless sensing data, including learning-based modeling of standardized Wi-Fi beamforming reports and structured perception from mmWave radar signals. By embedding physical signal structure and measurement constraints into learning frameworks, my research aims to bridge communication and sensing, enabling robust perception under incomplete, compressed, and noisy radio observations.</p>
+
+  <p>My research primarily focuses on <strong>wireless sensing</strong>, which aims to predict
+motions and status of human subjects and environments.
+Wireless sensing has attracted significant attention as a promising alternative to conventional sensing modalities such as cameras and wearable sensors, due to its non-intrusive nature, reduced privacy concerns, and wide-area coverage.</p>
+
+  <p>I mainly work on two types of approaches: communication-based sensing using wireless signals such as Wi-Fi and BLE, and radar-based sensing methods built on mmWave signal processing.
+With the ultimate goal of eliminating unobservable spaces in the physical world, I develop advanced wireless sensing methods, primarily leveraging deep learning techniques.</p>
+
+  <p>Beyond wireless sensing, I am also interested in related topics including <strong>multimedia transmission</strong>, <strong>signal compression</strong>, and <strong>3D reconstruction</strong>.</p>
+
 </section>
 
 <section class="content-section">
   <h2 id="biography">Biography</h2>
-  <div class="timeline">
-  <ul>
-    <li style="--index: 1">
-      <h3>2017-2021</h3>
-      <p>Bachelor (Engineering), <br /> The University of Osaka</p>
-    </li>
-    <li style="--index: 2">
-      <h3>2021-2023</h3>
-      <p>Master (Information Science), <br /> The University of Osaka</p>
-    </li>
-    <li style="--index: 3">
-      <h3>2023-now</h3>
-      <p>Ph.D. Candidate, <br /> The University of Osaka</p>
-    </li>
-    <li style="--index: 4">
-      <h3>2023 July - 2024 June</h3>
-      <p>Visiting Student / Internship, <br /> Mitsubishi Electric Research Laboratories</p>
-    </li>
-  </ul>
+  <div id="timeline-container">
+  <div class="inner-container">
+    <ul class="timeline">
+      <li class="timeline-item" data-date="2017-2021">Bachelor Deg. (Engineer), the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2021-2023">Master Deg. (Information Science), the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2021.07-2021.08">NTT, Inc., Summer Internship, Japan</li>
+      <li class="timeline-item" data-date="2023-now">Ph.D. candidate, the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2023.07-2024.06">Mitsubishi Electric Research Laboratories, Visiting student / Internship, USA</li>
+    </ul>
   </div>
+</div>
 </section>
+<script src="/assets/js/biography-timeline.js"></script>
 
 <section class="content-section">
   <h2 id="recent-publications">Recent Publications</h2>
 
   <ul>
     <li>
-      <p><strong><a href="/pubs/ikemura2025recursive.html">Recursive Multi-Branch Neural Network for Object Property Estimation Using Wi-Fi CSi</a></strong>, Journal of Information Processing, 2026.</p>
+      <p><strong>Recursive Multi-Branch Neural Network for Object Property Estimation Using Wi-Fi CSi</strong>, Journal of Information Processing, 2026.</p>
     </li>
     <li>
-      <p><strong><a href="/pubs/kamise2026inr.html">INR-Assisted Speculative Spatial Audio Transmission for Zero-Delay Cloud Gaming</a></strong>, IEEE Consumer Communications and Networking Conference (CCNC), 2026.</p>
+      <p><strong>INR-Assisted Speculative Spatial Audio Transmission for Zero-Delay Cloud Gaming</strong>, IEEE Consumer Communications and Networking Conference (CCNC), 2026.</p>
     </li>
     <li>
-      <p><strong><a href="/pubs/ikemura2026wipicap.html">Demo: WiPiCap: Real-time IEEE 802.11ac/ax Compressed Beamforming Report Decoding System</a></strong>, IEEE Consumer Communications and Networking Conference (CCNC), 2026.</p>
+      <p><strong>Demo: WiPiCap: Real-time IEEE 802.11ac/ax Compressed Beamforming Report Decoding System</strong>, IEEE Consumer Communications and Networking Conference (CCNC), 2026.</p>
     </li>
   </ul>
 
