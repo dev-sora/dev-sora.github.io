@@ -1,5 +1,5 @@
 ---
-title: "FV-NeRV: Neural Compression for Free Viewpoint Videos"
+title: "Range Image-Based Implicit Neural Compression for LiDAR Point Clouds"
 authors:
   - Akihiro Kuwabara
   - Sorachi Kato
