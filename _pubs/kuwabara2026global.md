@@ -12,7 +12,7 @@ vol:
 number:
 pages: 1 - 6
 year: 2026
-note: accepted
+note:
 
 paper:
 code:
