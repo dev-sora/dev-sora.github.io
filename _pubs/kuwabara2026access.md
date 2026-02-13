@@ -9,11 +9,11 @@ type: journal
 container: IEEE Access
 vol:
 number:
-pages:
+pages: 10262 - 10275
 year: 2026
-note: accepted
+note:
 
-paper:
+paper: https://ieeexplore.ieee.org/document/11352825
 code:
 
 sortkey: 202601
