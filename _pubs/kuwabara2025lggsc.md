@@ -14,7 +14,7 @@ pages: 1 - 6
 year: 2025
 note:
 
-paper:
+paper: https://www.merl.com/publications/docs/TR2025-148.pdf
 code:
 
 sortkey: 202510
