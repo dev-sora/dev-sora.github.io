@@ -12,9 +12,9 @@ vol:
 number:
 pages: 1 - 6
 year: 2026
-note: accepted
+note:
 
-paper:
+paper: https://ieeexplore.ieee.org/document/11366452
 code:
 
 sortkey: 202601
