@@ -8,7 +8,7 @@ authors:
   - Hassan Mansour
   - Petros Boufounos
 type: journal
-container: IEEE Transaction of Wireless Communications
+container: IEEE Transactions on Wireless Communications
 vol: 24
 number: 5
 pages: 3698 - 3714

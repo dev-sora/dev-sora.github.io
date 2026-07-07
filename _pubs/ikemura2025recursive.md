@@ -1,6 +1,6 @@
 ---
 title: "Recursive Multi-Branch Neural Network for Object Property Estimation
-Using Wi-Fi CSi"
+Using Wi-Fi CSI"
 authors:
   - Yusuke Ikemura
   - Sorachi Kato
@@ -13,12 +13,12 @@ type: journal
 container: Journal of Information Processing
 vol:
 number:
-pages: 1 - 11
+pages: 273 - 284
 year: 2026
-note: accepted
+note:
 
-paper: 
-code: 
+paper: https://doi.org/10.2197/ipsjjip.34.273
+code:
 
 sortkey: 202601
 ---

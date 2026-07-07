@@ -11,9 +11,9 @@ vol:
 number:
 pages: 1 - 4
 year: 2026
-note: accepated
+note: accepted
 
-paper:
+paper: https://ieeexplore.ieee.org/document/11463668
 code:
 
 sortkey: 202605

@@ -12,3 +12,6 @@ collections:
 
   awds:
     output: false
+
+  patents:
+    output: false
