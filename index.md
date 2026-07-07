@@ -14,7 +14,7 @@ title: Home
     <h1>Sorachi Kato (加藤 空知)</h1>
 
     <p>
-      Ph.D. in Information Science, Researcher in NTT, Inc.<br />
+      Ph.D. in Information Science,<br />Researcher in NTT, Inc.<br />
       Wireless sensing (IEEE 802.11 / mmWave radar), Signal Processing, Deep Learning<br />
 
         <div class="profile-links">
