@@ -14,7 +14,8 @@ title: Home
     <h1>Sorachi Kato (加藤 空知)</h1>
 
     <p>
-      Ph.D. Candidate, the University of Osaka, Japan<br />
+      Ph.D. in Information Science, Osaka University, Japan<br />
+      Researcher, NTT, Inc.<br />
       Wireless sensing (IEEE 802.11 / mmWave radar), Signal Processing, Deep Learning<br />
 
         <div class="profile-links">
@@ -61,11 +62,12 @@ Beyond wireless sensing, I am also interested in related topics including **mult
 <div id="timeline-container">
   <div class="inner-container">
     <ul class="timeline">
-      <li class="timeline-item" data-date="2017-2021">Bachelor Deg. (Engineer), the University of Osaka, Japan</li>
-      <li class="timeline-item" data-date="2021-2023">Master Deg. (Information Science), the University of Osaka, Japan</li>
+      <li class="timeline-item" data-date="2017-2021">Bachelor Deg. (Engineer), Osaka University, Japan</li>
+      <li class="timeline-item" data-date="2021-2023">Master Deg. (Information Science), Osaka University, Japan</li>
       <li class="timeline-item" data-date="2021.07-2021.08">NTT, Inc., Summer Internship, Japan</li>
-      <li class="timeline-item" data-date="2023-now">Ph.D. candidate, the University of Osaka, Japan</li>
-      <li class="timeline-item" data-date="2023.07-2024.06">Mitsubishi Electric Research Laboratories, Visiting student / Internship, USA</li>
+      <li class="timeline-item" data-date="2023.04-2026.03">Ph.D. (Information Science), Osaka University, Japan</li>
+      <li class="timeline-item" data-date="2023.07-2024.06">Mitsubishi Electric Research Laboratories, Visiting Student / Internship, USA</li>
+      <li class="timeline-item" data-date="2026.04-now">Researcher, NTT, Inc., Japan</li>
     </ul>
   </div>
 </div>
